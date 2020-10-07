@@ -1,13 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>_LinkedList.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedList.csproj" />
+    <ProjectReference Include="..\_LinkedList\LinkedList.csproj" />
   </ItemGroup>
 
 </Project>

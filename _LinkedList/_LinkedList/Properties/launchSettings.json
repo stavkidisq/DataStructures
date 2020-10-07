@@ -1,1 +1,7 @@
-{}
+{
+  "profiles": {
+    "LinkedList": {
+      "commandName": "Project"
+    }
+  }
+}
