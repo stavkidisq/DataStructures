@@ -19,6 +19,13 @@ namespace _LinkedList
             {
                 Console.Write(node.Data + " ");
             }
+
+            Console.WriteLine();
+
+            foreach(var item in linkedList)
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
