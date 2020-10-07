@@ -6,8 +6,4 @@
     <StartupObject>_LinkedList.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedList.csproj" />
-  </ItemGroup>
-
 </Project>
