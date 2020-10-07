@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoublyLinkedList;
+using System;
 
 namespace _LinkedList
 {
@@ -6,6 +7,7 @@ namespace _LinkedList
     {
         static void Main(string[] args)
         {
+            #region LinkedList
             LinkedList<int> linkedList = new LinkedList<int>();
 
             for(int i = 0; i < 10; i++)
@@ -26,6 +28,21 @@ namespace _LinkedList
             {
                 Console.Write(item + " ");
             }
+            #endregion
+            #region DoublyLinkedLisst
+            DoublyLinkedList<int> DlinkedList = new DoublyLinkedList<int>();
+
+            for(int i = 0; i < 10; i++)
+            {
+                DlinkedList.Add(new Random().Next(0, 100));
+            }
+
+            foreach(var item in DlinkedList)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
         }
     }
 }
