@@ -27,7 +27,7 @@ namespace DataStructures
             count++;
         }
 
-        public T Dequeue(T data)
+        public T Dequeue()
         {
             if (count == 0)
                 new InvalidCastException("Очередь пуста!");
